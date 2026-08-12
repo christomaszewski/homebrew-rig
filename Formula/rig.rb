@@ -4,7 +4,7 @@ class Rig < Formula
   desc "Vehicle-level sensor-stack orchestrator (ROS 2 / Zenoh / Docker deployments)"
   homepage "https://github.com/christomaszewski/rig"
   url "https://github.com/christomaszewski/rig/archive/refs/tags/v0.1.46.tar.gz"
-  sha256 "b8f96937d07c0b32c3e2f9560da87dbcd72636375a000147ee6ee184797b8f47"
+  sha256 "e1ca5208e68816050e1a1d94cc95c92e1b46b7ff3daf3540943fcac32c075160"
 
   depends_on "python@3.13"
 
