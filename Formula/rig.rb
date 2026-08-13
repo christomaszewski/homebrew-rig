@@ -3,13 +3,13 @@ class Rig < Formula
 
   desc "Vehicle-level sensor-stack orchestrator (ROS 2 / Zenoh / Docker deployments)"
   homepage "https://github.com/christomaszewski/rig"
-  url "https://github.com/christomaszewski/rig/archive/refs/tags/v0.1.46.tar.gz"
-  sha256 "e1ca5208e68816050e1a1d94cc95c92e1b46b7ff3daf3540943fcac32c075160"
+  url "https://github.com/christomaszewski/rig/archive/refs/tags/v0.1.48.tar.gz"
+  sha256 "0375e886199c1095391f3be045cefa50bb8dfeee5a22f41de2705337866b5ea5"
 
   depends_on "python@3.13"
 
   resource "pyyaml" do
-    url "https://files.pythonhosted.org/packages/05/8e/961c0007c59b8dd7729d542c61a4d537767a59645b82a0b521206e1e25c2/pyyaml-6.0.3.tar.gz"
+    url "https://github.com/christomaszewski/rig/archive/refs/tags/v0.1.48.tar.gz"
     sha256 "d76623373421df22fb4cf8817020cbb7ef15c725b9d5e45f17e189bfc384190f"
   end
 
