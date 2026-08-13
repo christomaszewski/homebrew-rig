@@ -1,10 +1,12 @@
-class Rig < Formula
+class RigCli < Formula
   include Language::Python::Virtualenv
 
   desc "Vehicle-level sensor-stack orchestrator (ROS 2 / Zenoh / Docker deployments)"
   homepage "https://github.com/christomaszewski/rig"
   url "https://github.com/christomaszewski/rig/archive/refs/tags/v0.1.50.tar.gz"
   sha256 "3c455d9dbe5643f137cdfab9f3aef56779c1aacc32095a80c5e44e452539d85f"
+
+  conflicts_with "rig", because: "homebrew-core's rig (an identity generator) also installs a `rig` executable"
 
   depends_on "python@3.13"
 
