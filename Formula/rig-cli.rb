@@ -3,8 +3,8 @@ class RigCli < Formula
 
   desc "Vehicle-level sensor-stack orchestrator (ROS 2 / Zenoh / Docker deployments)"
   homepage "https://github.com/christomaszewski/rig"
-  url "https://github.com/christomaszewski/rig/archive/refs/tags/v0.1.56.tar.gz"
-  sha256 "e4ed5fc858863e3f022a3b952610b7642e68d69466e96e97bf13983625a9c79d"
+  url "https://github.com/christomaszewski/rig/archive/refs/tags/v0.1.57.tar.gz"
+  sha256 "e3faf431f4367e8b89554f8472fa67fbc147f1f52e2e76245414da13d1b84c63"
 
   conflicts_with "rig", because: "homebrew-core's rig (an identity generator) also installs a `rig` executable"
 
