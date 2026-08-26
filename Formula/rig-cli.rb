@@ -17,6 +17,8 @@ class RigCli < Formula
 
   def install
     virtualenv_install_with_resources
+    # rig >= 0.2.26: TAB completion (bash/zsh only — no fish emitter yet)
+    generate_completions_from_executable(bin/"rig", "completion", shells: [:bash, :zsh])
   end
 
   def caveats
